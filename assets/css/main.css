@@ -167,6 +167,11 @@ table tr:last-child td.stylish {
 table td:not(last-child).stylish {
   	border-right: 1px solid #8ce6ec;
 }
+table td{
+		border-bottom: solid 1px #E67A7A;
+		text-align: center;
+		padding: 10px 0;
+}
 td:last-child.stylish {
     border-right: 0!important;
 }
@@ -3321,13 +3326,12 @@ input, select, textarea {
 		 border-bottom: solid 2px #fb5144;
 		 padding: 10px 0;
 	}
-
+/*
 	table td{
 			border-bottom: solid 2px #ddd;
 			text-align: center;
 			padding: 10px 0;
 	}
-/*
 		table thead {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.15);
 		}
