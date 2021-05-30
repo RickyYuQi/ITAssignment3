@@ -36,6 +36,7 @@ body {
 }
 
 .picsha{
+	width: 80%;
 	display: block;
 	margin-right: auto;
   margin-left: auto;
@@ -3264,7 +3265,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 10% 2em 10%;
 			}
 
 		}
@@ -3374,7 +3375,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 18% 3em 18%;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3382,7 +3383,7 @@ input, select, textarea {
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 4em 4em 2em 4em ;
+					padding: 4em 15% 2em 15%;
 				}
 
 			}
