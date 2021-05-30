@@ -35,6 +35,51 @@ body {
 		box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
 }
 
+/* 2カラムサイトにする */
+.tomoki {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.hitothu, .futatu {
+    padding: 20px;
+}
+
+.hitothu {
+    background: pink;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.futatu {
+    background: skyblue;
+    width: 50%;
+}
+
+/* 2カラムコンテンツにする */
+
+.archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.archive div {
+    margin-bottom: 3rem;
+    padding: 3rem;
+    width: 35%;
+    background-color: #f0f0f0;
+}
+
+.archive img {
+    display: block;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: auto;
+}
+
 .picsha{
 	width: 80%;
 	display: block;
